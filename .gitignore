@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Models (too large)
+models/
+*.bin
+*.pt
+*.safetensors
+
+# FAISS indexes
+*.index
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
